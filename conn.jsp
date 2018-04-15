@@ -35,7 +35,7 @@ java.sql.Connection conn;
    called "mydb" and MySQL's default user is "root". If we had a database 
    password we would add "&password=xxx" to the end of the url.
 */
-conn = DriverManager.getConnection("jdbc:mysql://fdb15.freehostingeu.com:3306/2173668_libzap?user=2173668_libzap&password=Libranzapp@123");
+conn = DriverManager.getConnection("jdbc:mysql://fdb15.freehostingeu.com:3306/2173668_libzap","2173668_libzap","Libranzapp@123");
 Statement sqlStatement = conn.createStatement();
 
 // Generate the SQL query.

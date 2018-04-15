@@ -3,7 +3,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql" %>
 
 <sql:query var="rs" dataSource="jdbc/2173668_libzap">
-select id, usuario from usuario
+select id, usuario from usuarios
 </sql:query>
 
 <html>

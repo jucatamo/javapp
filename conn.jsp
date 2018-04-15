@@ -2,7 +2,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql" %>
 
-<sql:query var="rs" dataSource="jdbc/2173668_libzap">
+<sql:query var="rs" dataSource="jdbc/heudb">
 select id, usuario from usuarios
 </sql:query>
 
